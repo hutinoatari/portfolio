@@ -1,8 +1,11 @@
 import { FC } from "react";
+import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
 
-const HomePage: FC<{}> = () => {
+const Top: FC<{}> = () => {
     return (
         <>
+        <Header />
         <section>
             <h2>NEWS</h2>
             <ul>
@@ -23,8 +26,9 @@ const HomePage: FC<{}> = () => {
                 <dd>hutinoatari</dd>
             </dl>
         </section>
+        <Footer />
         </>
     );
 }
 
-export default HomePage;
+export default Top;
