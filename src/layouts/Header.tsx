@@ -6,11 +6,16 @@ const Header: FC<{}> = () => {
         <header>
             <h1>捻れたバベル</h1>
             <nav>
-                <Link href="/" replace><a>TOP</a></Link>・
-                <Link href="/works" replace><a>WORKS</a></Link>
+                <Link href="/" replace>
+                    <a>TOP</a>
+                </Link>
+                ・
+                <Link href="/works" replace>
+                    <a>WORKS</a>
+                </Link>
             </nav>
         </header>
     );
-}
+};
 
 export default Header;
