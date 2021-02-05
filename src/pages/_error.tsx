@@ -5,11 +5,11 @@ import Footer from "../layouts/Footer";
 const Error: FC<{}> = () => {
     return (
         <>
-        <Header />
-        <p>存在しないページです。</p>
-        <Footer />
+            <Header />
+            <p>存在しないページです。</p>
+            <Footer />
         </>
     );
-}
+};
 
 export default Error;
