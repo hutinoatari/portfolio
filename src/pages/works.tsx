@@ -1,7 +1,5 @@
 import { FC } from "react";
 import Head from "next/head";
-import Header from "../layouts/Header";
-import Footer from "../layouts/Footer";
 
 const Works: FC<{}> = () => {
     return (
@@ -10,7 +8,6 @@ const Works: FC<{}> = () => {
                 <title>WORKS</title>
             </Head>
 
-            <Header />
             <h2>WORKS</h2>
             <ol reversed>
                 <li>Space Wandering</li>
@@ -18,7 +15,6 @@ const Works: FC<{}> = () => {
                 <li>流動者</li>
                 <li>期限ギリギリスト</li>
             </ol>
-            <Footer />
         </>
     );
 };
