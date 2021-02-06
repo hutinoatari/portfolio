@@ -1,11 +1,15 @@
 import { FC } from "react";
+import Head from "next/head";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
-import { Button } from "react-bootstrap";
 
 const Top: FC<{}> = () => {
     return (
         <>
+            <Head>
+                <title>TOP</title>
+            </Head>
+
             <Header />
             <section>
                 <h2>NEWS</h2>
@@ -26,7 +30,6 @@ const Top: FC<{}> = () => {
                     <dt>github</dt>
                     <dd>hutinoatari</dd>
                 </dl>
-                <Button variant="primary">あ</Button>
             </section>
             <Footer />
         </>
