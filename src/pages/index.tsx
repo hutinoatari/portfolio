@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
+import { Button } from "react-bootstrap";
 
 const Top: FC<{}> = () => {
     return (
@@ -25,6 +26,7 @@ const Top: FC<{}> = () => {
                     <dt>github</dt>
                     <dd>hutinoatari</dd>
                 </dl>
+                <Button variant="primary">あ</Button>
             </section>
             <Footer />
         </>
