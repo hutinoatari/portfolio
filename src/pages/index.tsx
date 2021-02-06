@@ -1,7 +1,5 @@
 import { FC } from "react";
 import Head from "next/head";
-import Header from "../layouts/Header";
-import Footer from "../layouts/Footer";
 
 const Top: FC<{}> = () => {
     return (
@@ -10,7 +8,6 @@ const Top: FC<{}> = () => {
                 <title>TOP</title>
             </Head>
 
-            <Header />
             <section>
                 <h2>NEWS</h2>
                 <ul>
@@ -31,7 +28,6 @@ const Top: FC<{}> = () => {
                     <dd>hutinoatari</dd>
                 </dl>
             </section>
-            <Footer />
         </>
     );
 };
